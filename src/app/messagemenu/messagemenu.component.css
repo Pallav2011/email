@@ -1,0 +1,41 @@
+.buttonDesign{
+    border: none;
+    height: 55px;
+    width: 130px;
+    border-radius: 15px;
+    background-color: rgb(172, 246, 246);
+    margin-left: 15px;
+    /* margin-bottom: 15px; */
+}
+
+.buttonList{
+    border: none;
+    background-color: transparent;
+    height: 30px;
+    width: 250px;
+    border-radius:0px 13px 13px 0px;   
+    text-align: left;
+}
+
+.iconDesign{
+    height: 15px;
+    width: 15px;
+    margin:0px 20px 0px 20px;
+}
+ 
+button:hover{
+    background-color: gainsboro;
+}
+
+.createLabelButton{
+    height: 20px;
+    width: 20px;
+}
+
+.buttonAdd{
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: transparent;
+    margin-left: 140px;
+}

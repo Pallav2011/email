@@ -1,0 +1,27 @@
+.messageMenu{
+    display: inline-block;
+    width: 17%;
+}
+
+.messageList{
+    /* position: relative;
+    top: -225px; */
+    position: absolute;
+    top: 80px;
+    left: 260px;
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 80%;
+    height: 650px;
+}
+
+.tools{
+    position: absolute;
+    top: 80px;
+    left: 1490px;
+    display: inline-block;
+    width:auto;
+    height: 500px;
+}
+

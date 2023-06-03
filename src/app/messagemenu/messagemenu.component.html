@@ -1,0 +1,75 @@
+
+<button class="buttonDesign">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+      <path d="M180-180h44l443-443-44-44-443 443v44Zm614-486L666-794l42-42q17-17 42-17t42 17l44 44q17 17 17 42t-17 42l-42 42Zm-42 42L248-120H120v-128l504-504 128 128Zm-107-21-22-22 44 44-22-22Z"/>
+    </svg>
+    Compose</button><br><br>
+    <button class="buttonList" style="background-color: rgb(196, 230, 229)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqRkgImCPw_kjczcg7fWhwAqtdDS1rJ2J_243k7BT0tdIdoQQmSHs4Xy01_6QPHgocuhU&usqp=CAU" alt="" class="iconDesign">
+        Inbox</button><br>
+
+    <button class="buttonList">
+        <img src="https://png.pngtree.com/png-vector/20190725/ourmid/pngtree-vector-star-icon-png-image_1577370.jpg" alt="" class="iconDesign">
+        Starred</button><br>
+
+    <button class="buttonList">
+        <img src="https://img.uxwing.com/wp-content/themes/uxwing/download/time-date-calendar/clock-line-icon.svg" alt="" class="iconDesign">
+        Snoozed</button><br>
+
+    <button class="buttonList">
+        <img src="https://www.vhv.rs/dpng/d/437-4370644_send-icon-png-image-free-download-searchpng-whatsapp.png" alt="" class="iconDesign">
+        Sent</button><br>
+
+    <button class="buttonList">
+        <img src="https://icon-library.com/images/page-icon-png/page-icon-png-26.jpg" alt="" class="iconDesign">
+        Draft</button><br>
+
+    <button class="buttonList" (click)="visible()">
+        <img src="{{moreArrow}}" alt="" class="iconDesign">
+        {{moreName}}</button><br>
+
+    <div *ngIf="visiblity">
+
+    <button class="buttonList">
+        <img src="https://png.pngtree.com/png-vector/20190423/ourlarge/pngtree-right-direction-arrow-icon-png-image_971414.jpg" alt="" class="iconDesign">
+        Important</button><br>
+        
+    <button class="buttonList">
+        <img src="https://www.pngkit.com/png/detail/255-2551410_png-file-white-chat-icon-png.png" alt="" class="iconDesign">
+        Chats</button><br>
+
+    <button class="buttonList">
+        <img src="https://cdn.icon-icons.com/icons2/3252/PNG/512/send_clock_regular_icon_204974.png" alt="" class="iconDesign">
+        Scheduled</button><br>
+        
+    <button class="buttonList">
+        <img src="https://icons.veryicon.com/png/o/business/resume-general-icon/e-mail-12.png" alt="" class="iconDesign">
+        All mail</button><br>
+
+    <button class="buttonList">
+        <img src="https://cdn-icons-png.flaticon.com/512/1209/1209935.png" alt="" class="iconDesign">
+        Spam</button><br>
+
+    <button class="buttonList">
+        <img src="https://simg.nicepng.com/png/small/122-1222602_trashcan-svg-png-icon-free-download-icon-trash.png" alt="" class="iconDesign">
+        Trash</button><br>
+       
+    <button class="buttonList">
+        <img src="https://www.seekpng.com/png/detail/192-1929173_right-arrow-outline-svg-png-icon-free-label.png" alt="" class="iconDesign">   
+        Categories</button><br>
+
+    <button class="buttonList">
+        <img src="/assets/settings.png" alt="" class="iconDesign">
+        Manage Labels</button><br>
+
+    <button class="buttonList">
+        <img src="/assets/add.png" alt="" class="iconDesign">
+        Create new label</button><br>
+
+    </div>
+    <br>
+<label for="" style="margin-left: 25px;font-size: large;">Labels</label>
+
+<button class="buttonAdd">
+    <img src="/assets/add.png" alt="" class="createLabelButton">
+</button>
