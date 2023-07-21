@@ -12,4 +12,106 @@ export class EmailstableComponent implements OnInit {
   ngOnInit() {
   }
 
+  emailsData =  [
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    }, 
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    }, 
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    }, 
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    }, 
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+    {
+      title : 'ABCDEFGHHJ',
+      disc : 'Pandurang Ranpise, Top companies are hiring on Naukri right now!',
+      date : Date()
+    },
+  ];
 }

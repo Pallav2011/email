@@ -10,6 +10,7 @@ export class MessagemenuComponent implements OnInit {
   visiblity:boolean=false;
   moreName:string="More";
   moreArrow="/assets/down_arrow.png";
+  visibleCategory:boolean = false;
   constructor() { }
 
   ngOnInit() {
@@ -25,6 +26,15 @@ export class MessagemenuComponent implements OnInit {
     this.visiblity=false;
     this.moreName="more";
     this.moreArrow="/assets/down_arrow.png";
+  }
+  }
+
+  visibleCat(){
+    if(this.visibleCategory==false){
+      this.visibleCategory=true;
+  }
+  else{
+    this.visibleCategory=false;
   }
   }
 

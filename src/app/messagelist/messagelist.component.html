@@ -1,32 +1,30 @@
 
-<div style="padding: 10px;">
+<div>
+<!-- <div style="padding: 10px;"> -->
 <header>
     <div>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
         <input type="checkbox" class="chechboxDesign">
-    
+        
         <select class="selectDesign">
             <option *ngFor="let op of selectOptions">{{op}}</option>
         </select>
+        </button>
+
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <img src="/assets/refresh.png" alt="" class="realoadDesign">
+        </button>
     
-        <a href="">
-            <img src="https://w7.pngwing.com/pngs/334/227/png-transparent-clockwise-rotation-arrow-circle-round-arrow-monochrome-number-shape-thumbnail.png" alt="" class="realoadDesign">
-        </a>
-    
-        <a href="">
-            <img src="https://w7.pngwing.com/pngs/948/504/png-transparent-computer-icons-material-design-hamburger-button-menu-menu-text-rectangle-computer-wallpaper-thumbnail.png" alt="" class="realoadDesign">
-        </a>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <img src="/assets/three_dot.png" alt="" class="realoadDesign">
+        </button>
     
     </div>
 </header>
 
-<mat-tab-group mat-tabs="false" mat-align-tabs="start">
-    <mat-tab label="Primary"></mat-tab>
-    <mat-tab label="Promotions"></mat-tab>
-    <mat-tab label="Social"></mat-tab>
-  </mat-tab-group>
 
-</div>
 
-<div>
+<div >
     <app-emailstable></app-emailstable>
+</div>
 </div>
