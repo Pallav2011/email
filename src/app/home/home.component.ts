@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { VisibilityService } from '../visibility.service';
+import { element } from 'protractor';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  buttunClicked:boolean=false;
+  // buttonNotclicked:boolean = false;
+  constructor(private myServ : VisibilityService) { }
 
   ngOnInit() {
+
   }
 
+  clicked(){
+    if(this.buttunClicked == true){
+      this.myServ.DataVisible.next(this.buttunClicked);
+      this.buttunClicked = false;
+    }
+    else{
+      this.myServ.DataVisible.next(this.buttunClicked);
+      this.buttunClicked = true;
+
+    }
+  }
 }

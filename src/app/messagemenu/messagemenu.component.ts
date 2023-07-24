@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { VisibilityService } from '../visibility.service';
 
 @Component({
   selector: 'app-messagemenu',
@@ -11,9 +12,22 @@ export class MessagemenuComponent implements OnInit {
   moreName:string="More";
   moreArrow="/assets/down_arrow.png";
   visibleCategory:boolean = false;
-  constructor() { }
+  narrowVisible:boolean;
+  wideVisible:boolean;
+
+  constructor( private myServ : VisibilityService) { }
 
   ngOnInit() {
+    this.myServ.DataVisible.subscribe(res=>{
+      if(res){       
+        this.wideVisible = true;
+        this.narrowVisible = false;
+      }
+      else{
+        this.narrowVisible = true;
+        this.wideVisible = false;
+      }
+    })
   }
 
   visible(){

@@ -37,11 +37,36 @@ button:hover{
     /* border-radius: 50%; */
     /* padding: 8px; */
     /* background-color: transparent; */
-    margin-left: 130px;
+    margin-left: 120px;
 }
 
 .divLayout {
     height: 570px;
     overflow: hidden;
     overflow-y: auto;
+}
+
+.narrowButtonDesign{
+    border: none;
+    height: 55px;
+    width: 55px;
+    border-radius: 15px;
+    background-color: rgb(172, 246, 246);
+    margin-left: 15px;
+    /* margin-bottom: 15px; */
+}
+
+.narrowButtons {
+    border: none;
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.narroIconDesign{
+    height: 15px;
+    width: 15px;
+    /* margin:0px 20px 0px 20px; */
 }

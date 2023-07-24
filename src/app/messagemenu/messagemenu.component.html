@@ -1,4 +1,4 @@
-<div>
+<div *ngIf="wideVisible">
 
     <button class="buttonDesign">
         <img src="/assets/edit.png" alt="" height="24" width="24">
@@ -112,6 +112,127 @@
         <label for="" style="margin-left: 25px;font-size: large;">Labels</label>
 
         <button mat-icon-button class="example-icon buttonAdd" aria-label="Example icon-button with menu icon">
+            <img src="/assets/add.png" alt="" class="createLabelButton">
+        </button>
+
+    </div>
+
+</div>
+
+<div *ngIf="narrowVisible" id="narrow" >
+
+    <button class="narrowButtonDesign">
+        <img src="/assets/edit.png" alt="" height="24" width="24">
+        </button>
+    <br><br>
+
+    <div class="divLayout">
+
+        <button class="narrowButtons" style="background-color: rgb(196, 230, 229)">
+            <img src="/assets/inbox.png" alt="" class="narroIconDesign">
+            </button>
+        <!-- <br> -->
+
+        <button class="narrowButtons">
+            <img src="/assets/star.png" alt="" class="narroIconDesign">
+            </button>
+        <!-- <br> -->
+
+        <button class="narrowButtons">
+            <img src="/assets/snoozed.png" alt="" class="narroIconDesign">
+            </button>
+        <!-- <br> -->
+
+        <button class="narrowButtons">
+            <img src="/assets/send.png" alt="" class="narroIconDesign">
+            </button>
+        <!-- <br> -->
+
+        <button class="narrowButtons">
+            <img src="/assets/draft.png" alt="" class="narroIconDesign">
+            </button>
+        <!-- <br> -->
+
+        <button class="narrowButtons" (click)="visible()">
+            <img src="{{moreArrow}}" alt="" class="narroIconDesign">
+            </button>
+        <!-- <br> -->
+
+        <div *ngIf="visiblity">
+
+            <button class="narrowButtons">
+                <img src="/assets/label_important.png" alt="" class="narroIconDesign">
+                </button>
+            <!-- <br> -->
+
+            <button class="narrowButtons">
+                <img src="/assets/chat.png" alt="" class="narroIconDesign">
+                </button>
+            <!-- <br> -->
+
+            <button class="narrowButtons">
+                <img src="/assets/schedule_send.png" alt="" class="narroIconDesign">
+                </button>
+            <!-- <br> -->
+
+            <button class="narrowButtons">
+                <img src="/assets/stacked_email.png" alt="" class="narroIconDesign">
+                </button>
+            <!-- <br> -->
+
+            <button class="narrowButtons">
+                <img src="/assets/spam.png" alt="" class="narroIconDesign">
+                </button>
+            <!-- <br> -->
+
+            <button class="narrowButtons">
+                <img src="/assets/trash.png" alt="" class="narroIconDesign">
+                </button>
+            <!-- <br> -->
+
+            <button class="narrowButtons" (click)="visibleCat()">
+                <img src="/assets/categories.png" alt="" class="narroIconDesign">
+                </button>
+            <!-- <br> -->
+
+            <div *ngIf="visibleCategory">
+
+                <button class="narrowButtons">
+                    <img src="/assets/social.png" alt="" class="narroIconDesign">
+                    </button>
+                <!-- <br> -->
+
+                <button class="narrowButtons">
+                    <img src="/assets/updates.png" alt="" class="narroIconDesign">
+                    </button>
+                <!-- <br> -->
+                <button class="narrowButtons">
+                    <img src="/assets/forum.png" alt="" class="narroIconDesign">
+                    </button>
+                <!-- <br> -->
+                <button class="narrowButtons">
+                    <img src="/assets/promotions.png" alt="" class="narroIconDesign">
+                    </button>
+                <!-- <br> -->
+
+            </div>
+
+            <button class="narrowButtons">
+                <img src="/assets/settings.png" alt="" class="narroIconDesign">
+                 </button>
+            <!-- <br> -->
+
+            <button class="narrowButtons">
+                <img src="/assets/add.png" alt="" class="narroIconDesign">
+               </button>
+            <!-- <br> -->
+
+        </div>
+        <br>
+
+        <!-- <label for="" style="margin-left: 25px;font-size: large;">Labels</label> -->
+
+        <button mat-icon-button class="example-icon narrowButtons" aria-label="Example icon-button with menu icon">
             <img src="/assets/add.png" alt="" class="createLabelButton">
         </button>
 
