@@ -11,8 +11,10 @@
             <tr *ngFor="let i of emailsData">
                 <td class="td1"><input type="checkbox" style="height: 15px;width: 15px;"></td>
                 <td class="td1">
-                    <img src="https://spng.pngfind.com/pngs/s/95-959934_star-outline-comments-star-icon-material-design-hd.png"
-                        alt="" height="17px" width="17px">
+                    <button (click)="buttonClicked(i.id)" class="starButton">
+                    <img src="{{i.starUrl}}"
+                        alt="" height="18px" width="18px" style="margin-bottom: 8px;">
+                    </button>
                 </td>
                 <td class="td2">{{i.title}}</td>
                 <td class="td3">{{i.disc}}</td>

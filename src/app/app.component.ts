@@ -24,10 +24,8 @@ export class AppComponent implements OnInit {
       else{
         document.getElementById("msg").style.width = "5%";
         document.getElementById("msglist").style.width = "92%";
-        // document.getElementById("msglist").style.position = "relative"
-        document.getElementById("msglist").style.left = "-180px";
-        
-      }
+        document.getElementById("msglist").style.left = "-184px";
+         }
     })
   }
 

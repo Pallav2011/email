@@ -17,3 +17,8 @@ div {
     overflow: hidden;
     overflow-y: auto;
 }
+
+.starButton {
+    background-color: transparent;
+    border: none;
+}

@@ -1,35 +1,20 @@
 .messageMenu{
-    /* display: inline-block; */
     float: left;
     width: 17%;
     background-color: whitesmoke;
-
-    /* border: solid; */
 }
 
 .messageList{
-    /* position: relative; */
-    /* top: -225px; */
     position: absolute;
-    /* top: 80px; */
-    /* left: 260px; */
-    /* display: inline-block; */
     background-color: white;
     border-radius: 20px;
     width: 80%;
     height: 650px;
     margin: 0 0 0 17%;
-    /* border: solid black; */
 }
 
 .tools{
-    /* position: absolute;
-    top: 80px;
-    left: 1490px; */
-    /* display: inline-block; */
     background-color: whitesmoke;
     float: right;
     width:3%;
-    /* border: solid; */
-    /* height: 500px; */
 }

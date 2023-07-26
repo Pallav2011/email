@@ -10,7 +10,6 @@ import { element } from 'protractor';
 export class HomeComponent implements OnInit {
 
   buttunClicked:boolean=false;
-  // buttonNotclicked:boolean = false;
   constructor(private myServ : VisibilityService) { }
 
   ngOnInit() {
